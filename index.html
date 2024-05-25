@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevDetective</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="innerBox">
+        <!-- Head -->
+        <div class="heading-container">
+          <h3 class="heading">DevDetective</h3>
+
+          <div class="darkBtn-container">
+            <p class="drk-text">Dark</p>
+            <button id="darkButton">
+              <img src="assets/images/moon-icon.svg" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <!-- Search Box -->
+        <div class="searchBoxContainer">
+          <img
+            src="assets/images/search-icon.svg"
+            alt="Search"
+            id="searchImg"
+            width="20px"
+            height="20px"
+          />
+          <input
+            type="text"
+            id="SearchBox"
+            searched-name
+            placeholder="Enter ID of Dev..."
+          />
+          <button id="SearchBtn">Search</button>
+        </div>
+
+        <!-- Info box -->
+        <div class="infoBox" info-box>
+          <img
+            src=""
+            alt=""
+            id="profile-Img"
+            profile-img
+            height="60px"
+            width="60px"
+          />
+
+          <div class="innerInfoBox">
+            <div class="name-box">
+              <h2 class="name" dev-name></h2>
+              <p class="doj" date-of-join></p>
+            </div>
+
+            <a href="" class="plink" profile-link></a>
+
+            <div class="bio" dev-bio></div>
+
+            <div class="detail-box">
+                <div class="repo">
+                    <label for="repo" class="repo-lab">Repos</label>
+                    <div class="repo-box" repo-box></div>
+                </div>
+                <div class="repo">
+                    <label for="repo" class="repo-lab">Followers</label>
+                    <div class="follower-box" follower-box></div>
+                </div>
+                <div class="repo">
+                    <label for="repo" class="repo-lab">Following</label>
+                    <div class="following-box" following-box></div>
+                </div>
+              
+              
+            </div>
+
+            <div class="other-info">
+              <div class="upper-box">
+                <div class="address-box">
+                  <img src="assets/images/location-icon.svg" alt="" />
+                  <p class="address" address></p>
+                </div>
+                <div class="blog-box">
+                  <img src="assets/images/website-icon.svg" alt="" />
+                  <p class="blog" blog></p>
+                </div>
+              </div>
+
+              <div class="lower">
+                <div class="twitter-box">
+                  <img src="assets/images/twitter-icon.svg" alt="" />
+                  <p class="twitter" twitter></p>
+                </div>
+                <div class="company-box">
+                  <img src="assets/images/company-icon.svg" alt="" />
+                  <p class="company" company></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
